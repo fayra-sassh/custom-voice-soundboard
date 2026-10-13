@@ -1,0 +1,79 @@
+{
+  "AudioDirectory": "audio-cache",
+  "CacheDirectory": "audio-cache",
+  "CancelKey": 27,
+  "ChatKey": 13,
+  "FadeKey": 16,
+  "LeftKey": 1,
+  "LoopCrossfadeMs": 50,
+  "OrbKey": 69,
+  "OrbSelectionSeconds": 0,
+  "PauseKey": 119,
+  "RightKey": 2,
+  "Rules": [
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 0,
+      "Id": "left",
+      "Key": 1,
+      "Mode": "hold",
+      "Name": "治疗"
+    },
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 0,
+      "Id": "right",
+      "Key": 2,
+      "Mode": "hold",
+      "Name": "伤害"
+    },
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 0,
+      "Id": "SHIFT",
+      "Key": 16,
+      "Mode": "once",
+      "Name": "消散"
+    },
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 69,
+      "Id": "E-left",
+      "Key": 1,
+      "Mode": "select",
+      "Name": "治疗球"
+    },
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 69,
+      "Id": "E-right",
+      "Key": 2,
+      "Mode": "select",
+      "Name": "伤害球"
+    },
+    {
+      "AudioFile": "",
+      "Enabled": true,
+      "GateKey": 0,
+      "Id": "Q",
+      "Key": 81,
+      "Mode": "once",
+      "Name": "聚合射线"
+    }
+  ],
+  "StartEnabled": true,
+  "UltimateKey": 81,
+  "Volume": 70,
+  "WindowClasses": [
+    "TankWindowClass"
+  ],
+  "WindowTitles": [
+    "Overwatch",
+    "守望先锋"
+  ]
+}

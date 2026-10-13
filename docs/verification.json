@@ -1,0 +1,11 @@
+{
+  "packaged_date": "2026-10-13",
+  "zip": "自定义语音播放器-v5-Windows64.zip",
+  "relocated_self_test": "passed",
+  "ui_initialization": "passed",
+  "editor_save_and_reload": "passed",
+  "parallel_audio_and_looping": "passed",
+  "audio_underruns": 0,
+  "offline_import_without_python": "passed",
+  "original_audio_unchanged": "passed"
+}

@@ -1,0 +1,12 @@
+﻿本程序在导入音频时独立调用随附的 FFmpeg 命令行可执行文件。
+FFmpeg 7.1 essentials_build，构建提供者 gyan.dev，GPL version 3 or later。
+二进制来自 imageio-ffmpeg 0.6.0 的 Windows wheel，与 Gyan 的对应原版文件核对。
+该可执行文件未修改。附带 FFmpeg GPL 许可全文、原始构建 README 和对应 FFmpeg 源码归档。
+
+对应发布：https://github.com/GyanD/codexffmpeg/releases/tag/7.1
+FFmpeg 对应源码提交：https://github.com/FFmpeg/FFmpeg/commit/b08d7969c5
+构建 README 列明其外部组件版本；这些外部组件的源代码由各上游提供。
+FFmpeg 项目与许可说明：https://ffmpeg.org/legal.html
+imageio-ffmpeg 来源：https://github.com/imageio/imageio-ffmpeg/tree/v0.6.0
+imageio-ffmpeg 的 BSD 许可同时保留；包中没有 Python 解释器或 Python 运行依赖。
+源码目录中的 C# 文件是播放器本身，第三方源码归档是独立的 FFmpeg 组件。

@@ -1,0 +1,23 @@
+# Local configuration, imported user audio and runtime reports
+config.json
+config.previous.json
+config-*.tmp
+custom-audio/
+verification-*.txt
+*.previous.exe
+*.exe
+*.pdb
+*.zip
+*.tar.gz
+.tools/
+.package-resources/
+customization-test-*/
+editor-test-*/
+preview-*.png
+.env
+.env.*
+credentials*
+secrets*
+.aws/
+.codex/
+__pycache__/

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "release": "自定义语音播放器-v5-Windows64",
+  "zip_files_scanned": 25,
+  "upstream_source_files_scanned": 8563,
+  "secret_values_printed": false,
+  "findings": [],
+  "resolved_nonsecret_markers": [
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "OpenAI-like API token",
+      "offset": 81553548,
+      "resolution": "Public OpenSSH algorithm name",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "OpenAI-like API token",
+      "offset": 81556705,
+      "resolution": "Public OpenSSH algorithm name",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "OpenAI-like API token",
+      "offset": 81556864,
+      "resolution": "Public OpenSSH algorithm name",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "OpenAI-like API token",
+      "offset": 81569872,
+      "resolution": "Public OpenSSH algorithm name",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "OpenAI-like API token",
+      "offset": 81569920,
+      "resolution": "Public OpenSSH algorithm name",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "Private key material",
+      "offset": 81570400,
+      "resolution": "Null-terminated PEM parser header, no private-key body",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "Private key material",
+      "offset": 81570432,
+      "resolution": "Null-terminated PEM parser header, no private-key body",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "Private key material",
+      "offset": 81571504,
+      "resolution": "Null-terminated PEM parser header, no private-key body",
+      "official_binary_sha256_verified": true
+    },
+    {
+      "file": "自定义语音播放器-v5-Windows64/.tools/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe",
+      "category": "Private key material",
+      "offset": 81573632,
+      "resolution": "Null-terminated PEM parser header, no private-key body",
+      "official_binary_sha256_verified": true
+    }
+  ],
+  "zip_sha256": "ccfb86f104b39b1ff6e2f62af73f47c9d01bcf4336b2d7efe4ef6075f6206cf3",
+  "scope": "Pattern scan of the exact ZIP, including binaries, UTF-16 resources, configs and nested upstream source. This is not a guarantee against every possible type of personal information."
+}
